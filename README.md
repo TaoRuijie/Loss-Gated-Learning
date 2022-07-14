@@ -16,7 +16,7 @@ This repository contains the code for our ICASSP 2022 paper: ["Self-supervised s
 
 * In our paper, we manually determinate the end of each iteration, that is not user-friendly. In this code, we end the iteration if EER can not improve in continuous N = 4 epochs. You can increase it to improve the performance.
 
-I do not have time to run the entire code again. I have checked Stage 1 and get the EER=7.36. While I believe a EER that smaller than 2.00 can easily be obtained in Stage 2 even the channel size = 512.
+I do not have time to run the entire code again. I have checked Stage 1 and get the EER=7.36. While I believe a EER that smaller than 2.00 can easily be obtained in Stage 2 in this code. 
 
 ***
 
