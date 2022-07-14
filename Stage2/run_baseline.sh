@@ -2,7 +2,7 @@
 
 python main_train.py \
 --save_path exp/baseline \
---batch_size 600 \
+--batch_size 400 \
 --lr 0.001 \
 --train_list ../utils/train_list.txt \
 --val_list ../utils/test_list.txt \
