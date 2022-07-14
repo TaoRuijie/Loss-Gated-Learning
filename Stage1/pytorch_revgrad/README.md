@@ -1,0 +1,1 @@
+This module is learnt from [Augmentation adversarial training for unsupervised speaker recognition](https://github.com/joonson/voxceleb_unsupervised). In my experience, AAT can improve the EER from 8.5 to 7.5 in Vox\_O. Check their paper for more details.
