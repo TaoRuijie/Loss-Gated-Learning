@@ -52,7 +52,7 @@ I have added the test_list (Vox1_O) in `utils`. This train_list contains the len
 
 `train_mini.txt` is a subset of VoxCeleb2. It contains 100k utterances from 4082 speakers.
 
-Download `train_list.txt` from [Here](https://drive.google.com/u/0/uc?id=1eraQWNKNHS_s6SnPjoZrQ_1HOeUREh9R&export=download) and put it in `utils`.
+Download `train_list.txt` from [here](https://drive.google.com/u/0/uc?id=1eraQWNKNHS_s6SnPjoZrQ_1HOeUREh9R&export=download) and put it in `utils`.
 
 ## Stage I: Contrastive Learning
 
@@ -64,9 +64,9 @@ bash run.sh
 
 Every `test_step` epoches, system will be evaluated in Vox1_O set and print the EER. 
 
-The result will be saved in `Stage1/exps/exp1/score.txt`. The model will saved in `Stage1/exps/exp1/model`
+The result will be saved in `Stage1/exps/exp1/score.txt`. The model will saved in `Stage1/exps/exp1/model`. I also provide the [model](https://drive.google.com/file/d/1GTKG04Hs0rr--SOUOYpu9ZTkBT2UZHQk/view?usp=sharing) that EER=7.36.
 
-In my case, I trained 50 epoches in one 3090 GPU. Each epoch takes 40 mins, the total training time is about 35 hours.
+In my case, I trained 50 epoches in one 3090 GPU. Each epoch takes 40 mins, the total training time is about 35 hours. 
 
 ## Stage II: Classification Training (Baseline)
 
