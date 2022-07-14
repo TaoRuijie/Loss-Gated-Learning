@@ -1,4 +1,4 @@
-# Self-supervised speaker recognition with loss-gated learning
+# Self-supervised speaker recognition with LGL
 
 This repository contains the code for our ICASSP 2022 paper: ["Self-supervised speaker recognition with loss-gated learning"](https://arxiv.org/pdf/2110.03869.pdf). We propose to filter the unreliable pseudo label in Stage II, so that train with the reliable pseudo label only to boost the system.
 
@@ -6,9 +6,9 @@ This repository contains the code for our ICASSP 2022 paper: ["Self-supervised s
 
 ## Result (Train on VoxCeleb2 without labels, test on Vox1_O EER)
 
-| System | Stage 1   | Stage 2 (w/o LGL) | Stage 2 (with LGL) | 
-| :-:    | :-:       | :-:               | :-:                |
-|  EER   | 7.36      | 3.09              | 1.66               |
+| System | Stage 1   | Stage 2 | 
+| :-:    | :-:       | :-:     |
+|  EER   | 7.36      | 1.66    |
 
 ## Difference for our paper and this code
 
