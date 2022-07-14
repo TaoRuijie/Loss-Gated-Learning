@@ -48,9 +48,11 @@ Dataset for evaluation:
 
 2) VoxCeleb1 train set for [Vox1_E](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt) and [Vox1_H](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_hard2.txt) (Optional)
 
-I have added the train_list and test_list (Vox1_O) in `utils`. This train_list contains the length for each utterances.
+I have added the test_list (Vox1_O) in `utils`. This train_list contains the length for each utterances.
 
 `train_mini.txt` is a subset of VoxCeleb2. It contains 100k utterances from 4082 speakers.
+
+Download `train_list` from [Here](https://drive.google.com/file/d/1eraQWNKNHS_s6SnPjoZrQ_1HOeUREh9R/view?usp=sharing) and put it in `utils`.
 
 ## Stage I: Contrastive Learning
 
