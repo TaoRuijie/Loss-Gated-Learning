@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+tqdm
+torchvision
+soundfile
+faiss
