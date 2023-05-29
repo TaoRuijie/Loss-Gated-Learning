@@ -133,3 +133,7 @@ We study many useful projects in our codeing process, which includes:
 [lawlict/ECAPA-TDNN](https://github.com/lawlict/ECAPA-TDNN/blob/master/ecapa_tdnn.py).
 
 Thanks for these authors to open source their code!
+
+### Cooperation
+
+If you are interested to work on this topic and have some ideas to implement, I am glad to collaborate and contribute with my experiences & knowlegde in this topic. Please contact me with ruijie.tao@u.nus.edu.
